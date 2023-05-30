@@ -1,0 +1,14 @@
+/* Imports Globais */
+@import url(global/global.css);
+@import url(global/header.css);
+@import url(global/footer.css);
+
+/* Import Estilos */
+@import url(style/cores.css);
+@import url(style/fontes.css);
+
+/* Import Páginas */
+@import url(pages/index.css);
+@import url(pages/sobre-nos.css);
+@import url(pages/produtos.css);
+@import url(pages/contato.css);
