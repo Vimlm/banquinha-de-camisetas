@@ -1,0 +1,21 @@
+/* CSS Produtos */
+.titulo-produtos {
+  margin-bottom: 40px;
+}
+.produtos {
+  display: flex;
+  gap: 60px;
+}
+
+.produto-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.produto-botoes {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  align-items: center;
+}
