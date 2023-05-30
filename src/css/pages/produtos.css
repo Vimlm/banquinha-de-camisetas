@@ -10,7 +10,6 @@
 .produto-item {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
 }
 
 .produto-botoes {
@@ -18,4 +17,16 @@
   gap: 8px;
   justify-content: flex-end;
   align-items: center;
+}
+
+.produto-botoes a {
+  background: orange;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.produto-botoes a:nth-child(3) {
+  width: 25%;
+  height: 100%;
+  text-align: center;
 }
