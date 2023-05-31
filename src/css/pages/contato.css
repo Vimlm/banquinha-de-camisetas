@@ -1,0 +1,58 @@
+/* CSS - Formulário de contato */
+.titulo-contato{
+    text-align: center;
+    font-size: 35px;
+}
+a{
+    text-align: center;
+}
+button{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    background-color: #D1B283;
+    width: 220px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background: rgb(129, 123, 123);
+    border: none;
+    color: black;
+
+}
+.formulario{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    justify-content: space-around;
+    /* align-items:baseline; */
+    width: 600px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    background: #252525;
+    box-shadow: 0 8px 32px 0 rgba(38, 46, 161, 0.5);
+    backdrop-filter: blur( 2.5px );
+    /* border-radius: 16px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 450px;
+}
+input{
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #D1D1D1;
+    border: none;
+}
+.texto-contato{
+    box-sizing: content-box;
+}
+label{
+    color:#E6E6E6;
+    font-size: 20px;
+}
