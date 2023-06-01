@@ -1,7 +1,7 @@
 /* CSS - Formulário de contato */
-.titulo-contato{
-    text-align: center;
-    font-size: 35px;
+.titulo-contato {
+  text-align: center;
+  font-size: 35px;
 }
 a{
     text-align: center;
@@ -17,11 +17,10 @@ button{
     border-radius: 10px;
     border: none;
 }
-button:hover{
-    background: rgb(129, 123, 123);
-    border: none;
-    color: black;
-
+button:hover {
+  background: rgb(129, 123, 123);
+  border: none;
+  color: black;
 }
 .formulario{
     padding: 15px;
