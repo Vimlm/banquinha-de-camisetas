@@ -1,11 +1,14 @@
 /* CSS - Formulário de contato */
+<<<<<<< HEAD
 .titulo-contato {
+=======
+.titulo-contato{
+>>>>>>> 637e9d0babc0a6588a19ee0a07bf03b923105ad8
     text-align: center;
     font-size: 35px;
 }
 a{
     text-align: center;
-    height: 16px;
 }
 button{
     font-family: 'Archivo Narrow', sans-serif;
@@ -14,18 +17,27 @@ button{
     background-color: #D1B283;
     width: 220px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
 }
+<<<<<<< HEAD
 button:hover {
     background: rgb(129, 123, 123);
     border: none;
     color: black;
+=======
+button:hover{
+    background: rgb(129, 123, 123);
+    border: none;
+    color: black;
+
+>>>>>>> 637e9d0babc0a6588a19ee0a07bf03b923105ad8
 }
 .formulario{
     padding: 15px;
     display: flex;
     justify-content: center;
+    
 }
 form{
     justify-content: space-around;
@@ -35,26 +47,37 @@ form{
     flex-direction: column;
     text-align:left;
     background: #252525;
-    box-shadow: 0 8px 35px 0 rgba(38, 46, 161, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(38, 46, 161, 0.5);
     backdrop-filter: blur( 2.5px );
+<<<<<<< HEAD
     height: 550px;
+=======
+    /* border-radius: 16px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 450px;
+>>>>>>> 637e9d0babc0a6588a19ee0a07bf03b923105ad8
 }
 input{
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #D1D1D1;
+<<<<<<< HEAD
     font-family: 'Julius Sans One', sans-serif;
     height: 35px;
+=======
+>>>>>>> 637e9d0babc0a6588a19ee0a07bf03b923105ad8
     border: none;
-    font-size: 18px;
-    padding: 5px;
 }
 .texto-contato{
+<<<<<<< HEAD
     height: 150px;
     text-align: justify;
     padding: 5px;
+=======
+    box-sizing: content-box;
+>>>>>>> 637e9d0babc0a6588a19ee0a07bf03b923105ad8
 }
 label{
     color:#E6E6E6;
-    font-size: 25px;
+    font-size: 20px;
 }
