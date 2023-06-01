@@ -1,7 +1,7 @@
 /* CSS - Formulário de contato */
 .titulo-contato {
-  text-align: center;
-  font-size: 35px;
+    text-align: center;
+    font-size: 35px;
 }
 a{
     text-align: center;
@@ -9,7 +9,7 @@ a{
 }
 button{
     font-family: 'Archivo Narrow', sans-serif;
-    font-family: 'Julius Sans One', sans-serif;
+    /* font-family: 'Julius Sans One', sans-serif; */
     font-size: 20px;
     background-color: #D1B283;
     width: 220px;
@@ -18,9 +18,9 @@ button{
     border: none;
 }
 button:hover {
-  background: rgb(129, 123, 123);
-  border: none;
-  color: black;
+    background: rgb(129, 123, 123);
+    border: none;
+    color: black;
 }
 .formulario{
     padding: 15px;
@@ -29,7 +29,6 @@ button:hover {
 }
 form{
     justify-content: space-around;
-    /* align-items:baseline; */
     width: 600px;
     padding: 45px;
     display: flex;
@@ -38,7 +37,6 @@ form{
     background: #252525;
     box-shadow: 0 8px 35px 0 rgba(38, 46, 161, 0.5);
     backdrop-filter: blur( 2.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
     height: 550px;
 }
 input{
@@ -46,7 +44,6 @@ input{
     border-radius: 10px;
     background-color: #D1D1D1;
     font-family: 'Julius Sans One', sans-serif;
-    box-sizing: border-box;
     height: 35px;
     border: none;
     font-size: 18px;
@@ -56,7 +53,6 @@ input{
     height: 150px;
     text-align: justify;
     padding: 5px;
-
 }
 label{
     color:#E6E6E6;
