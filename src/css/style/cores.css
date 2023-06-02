@@ -9,18 +9,6 @@
   --input: #D1D1D1;
 }
 
-.bg {
-  background: var(--bg);
-}
-
-.bg-footer {
-  background: var(--bg-footer);
-}
-
-.bg-botao {
-  background: var(--bg-botao);
-}
-
 .corpo-texto-escuro {
   color: var(--corpo-texto-escuro);
 }
@@ -32,12 +20,3 @@
 .detalhe-texto {
   color: var(--detalhe-texto);
 }
-
-.detalhe-pagina {
-  background: var(--detalhe-pagina);
-}
-
-.input {
-  background: var(--input);
-}
-
