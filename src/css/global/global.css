@@ -7,6 +7,7 @@
 }
 
 body {
+  background: var(--bg);
   width: 100%;
   min-height: 100vh;
 }
@@ -20,7 +21,20 @@ a {
   color: inherit;
 }
 
+button {
+  background: var(--bg-botao);
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  background: var(--bg-botao-hover);
+  transform: scale(1.1);
+}
+
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  min-height: 85vh;
+  margin: 60px auto;
 }

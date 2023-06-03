@@ -2,25 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@400;500&display=swap');
 
 .fonte-logo {
-  font: 400 32px/1.2 'Julius Sans One' sans-serif;
+  font: 400 32px/1.2 'Julius Sans One', sans-serif;
 }
 
 .fonte-titulo {
-  font: 500 64px/1.2 'Montserrat' sans-serif;
+  font: 500 64px/1.2 'Montserrat', sans-serif;
 }
 
 .fonte-corpo {
-  font: 400 32px/1.2 'Montserrat' sans-serif;
+  font: 400 32px/1.2 'Montserrat', sans-serif;
 }
 
-.fonte-produtos {
-  font: 500 32px/1.2 'Montserrat' sans-serif;
+.fonte-produto {
+  font: 500 24px/1.2 'Montserrat', sans-serif;
 }
 
 .fonte-menu {
-  font: 500 24px/1.2 'Montserrat' sans-serif;
+  font: 500 24px/1.2 'Montserrat', sans-serif;
 }
 
 .fonte-preco {
-  font: 500 20px/1.2 'Montserrat' sans-serif;
+  font: 500 20px/1.2 'Montserrat', sans-serif;
 }
