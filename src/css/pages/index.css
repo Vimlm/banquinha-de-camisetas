@@ -1,34 +1,28 @@
-/*Body----------------------------------------------*/
-
-/*Header------------------------------------------------------*/
+/*Header-----------------------------------------------------*/
 
 /*Main--------------------------------------------------------*/
-.pgmain {
-    background-color: #fbfbfb;
-    width: 75rem; 
-    margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-.sobre {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-}
-.imagem-sobre {
-    width: 250px;
-    box-shadow: 10px 9px 0px 0px #D1B283;
-}
 .titulo-sobre {
     text-align: start;
-    font-size: 3.5rem;
-    margin-top: 3.5rem;
-    margin-bottom: 1rem;
+    margin-top: 195px;
+    margin-bottom: 32px;
 }
+/* classe titulo-sobre para fazer com que o titulo comece pelo lado esquerdo e tenha tanto um margin que a separe do topo e outro para separar da section. */
+.sobre {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+} 
+/*Coloquei um margin botton para dar espaço entre cada section, também usei display flex para fazer com que os elementos ficassem alinhados na horizontal e dei um gap para separar os elementos dentro da section*/
+ .imagem-sobre {
+    width: 520px;
+    height: 400px;
+}
+ /*Ajustei as imagens para ficar mais parecido com*/
 .titulo2{
-    font-size: 3rem;
+    font: 500 48px/1.2 'Montserrat', sans-serif;
+    margin-bottom: 20px;
 }
 .paragrafo {
-    font-size: 2rem;
-    text-align: justify;
+    text-align: left;
 }
