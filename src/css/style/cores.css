@@ -1,0 +1,23 @@
+:root {
+  --bg: #FBFBFB;
+  --bg-footer: #252525;
+  --bg-botao: #D1B283;
+  --bg-botao-hover: #AD9A7E;
+  --corpo-texto-escuro: #181818;
+  --corpo-texto-claro: #E6E6E6;
+  --detalhe-texto: #7D8CA4;
+  --detalhe-pagina: #D4DCF6;
+  --input: #D1D1D1;
+}
+
+.corpo-texto-escuro {
+  color: var(--corpo-texto-escuro);
+}
+
+.corpo-texto-claro {
+  color: var(--corpo-texto-claro);
+}
+
+.detalhe-texto {
+  color: var(--detalhe-texto);
+}

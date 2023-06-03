@@ -3,11 +3,14 @@
     text-align: center;
     font-size: 35px;
 }
-a{
+
+/* criar classe para estilizar esse elemento para não afetar o resto da página */
+/* a{
     text-align: center;
     height: 16px;
-}
-button{
+} */
+/* Vamos ter que mudar os buttons também, acabei tendo que mudar a tag "a" para button para conseguir utlizar o evento "onclick" e fazer as interações em JS, em global coloquei alguns valores padrões para botões, e deixer o hover deles lá já que vou usar na página produtos, verificar o que foi colocado e remover aqui */
+/* button{
     font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
     background-color: #D1B283;
@@ -15,12 +18,8 @@ button{
     padding: 15px;
     border-radius: 10px;
     border: none;
-}
-button:hover {
-    background: rgb(129, 123, 123);
-    border: none;
-    color: black;
-}
+}*/
+
 .formulario{
     padding: 15px;
     display: flex;

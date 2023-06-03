@@ -2,6 +2,11 @@
 .titulo-produtos {
   margin-bottom: 40px;
 }
+
+.titulo-produtos span {
+  color: var(--detalhe-pagina);
+}
+
 .produtos {
   display: flex;
   gap: 60px;
@@ -17,16 +22,31 @@
   gap: 8px;
   justify-content: flex-end;
   align-items: center;
+  margin-top: 8px;
 }
 
-.produto-botoes a {
-  background: orange;
+.produto-botoes button {
   padding: 4px 8px;
   border-radius: 4px;
 }
 
-.produto-botoes a:nth-child(3) {
+.produto-botoes button:nth-child(3) {
   width: 25%;
   height: 100%;
   text-align: center;
+}
+
+
+/* Header e Footer Provisório */
+.prov-header, .prov-footer {
+  width: 100%;
+  background: var(--bg-footer);
+}
+
+.prov-header {
+  min-height: 10vh;
+}
+
+.prov-footer {
+  min-height: 15vh;
 }

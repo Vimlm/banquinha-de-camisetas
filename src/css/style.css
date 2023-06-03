@@ -2,6 +2,7 @@
 @import url(global/global.css);
 @import url(global/header.css);
 @import url(global/footer.css);
+@import url(global/componentes.css);
 
 /* Import Estilos */
 @import url(style/cores.css);
