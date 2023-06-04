@@ -1,4 +1,4 @@
-/* main {
+main {
   background-color: #fbfbfb;
   width: 75rem; Utilizei unidade de medida rem para torna o texto mais adaptável a vários tamanhos de telas
   margin: 0 auto; Centraliza a main
@@ -40,4 +40,4 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-} */
+}
