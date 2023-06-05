@@ -1,3 +1,4 @@
+/* Cores */
 :root {
   --bg: #FBFBFB;
   --bg-footer: #252525;
@@ -21,3 +22,5 @@
 .detalhe-texto {
   color: var(--detalhe-texto);
 }
+
+/* Nessa  página temos a definição de cores no nosso "root" ou seja, elemento máximo do nosso HTML, abaixo foi criado alguns estilos de cores de texto para algumas classes para evitar coloca-las diretamente nos css das páginas e ser de mais fácil manutenção caso haja necessidade de mudar as cores do site.*/

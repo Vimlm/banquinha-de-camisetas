@@ -1,4 +1,4 @@
-/* Import das fontes Montserrat peso 400 e 500 e Julius Sans One 400 */
+/* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@400;500&display=swap');
 
 .fonte-logo {
@@ -24,3 +24,5 @@
 .fonte-preco {
   font: 500 20px/1.2 'Montserrat', sans-serif;
 }
+
+/* Nessa página temos o import das fontes na linha 2, abaixo temos alguns padrões definidos para logo, título, corpo de texto, fonte dos produtos, menu e para o preço também. Nesses atributo "font" nós passamos os valores de font: peso tamanho/altura de linha 'nome da fonte', fonte secundária caso a primeira não carregue */

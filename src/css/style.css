@@ -13,3 +13,5 @@
 @import url(pages/equipe.css);
 @import url(pages/produtos.css);
 @import url(pages/contato.css);
+
+/* Aqui nós temos todos os arquivos do nosso projeto importados em um único arquivo para ficar mais fácil a compreensão e também a manutenção caso seja necessário */

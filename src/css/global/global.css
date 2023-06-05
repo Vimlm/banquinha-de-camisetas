@@ -38,3 +38,5 @@ button:hover {
   min-height: 85vh;
   margin: 60px auto;
 }
+
+/* Aqui temos alguns estílos globais e reset que são reutilizado em algumas das páginas que nós temos, como por exemplo "*" para aplicação de estílo em toda a página, ".container" que define o tamamho do nosso conteúdo na página, "img" que trata todas as imagens da nossa página e "button" que define como serão os botões da nossa página.*/
