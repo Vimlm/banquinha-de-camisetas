@@ -3,10 +3,6 @@
   margin-bottom: 40px;
 }
 
-.titulo-produtos span {
-  color: var(--detalhe-pagina);
-}
-
 .produtos {
   display: flex;
   gap: 60px;
@@ -46,9 +42,9 @@
 }
 
 .prov-header {
-  min-height: 10vh;
+  height: 10vh;
 }
 
 .prov-footer {
-  min-height: 15vh;
+  height: 15vh;
 }

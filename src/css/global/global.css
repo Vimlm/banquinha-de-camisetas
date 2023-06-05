@@ -33,6 +33,10 @@ button:hover {
   transform: scale(1.1);
 }
 
+span {
+  color: var(--detalhe-pagina);
+}
+
 .container {
   max-width: 1200px;
   min-height: 85vh;
