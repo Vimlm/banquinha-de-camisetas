@@ -1,43 +1,45 @@
-main {
-  background-color: #fbfbfb;
-  width: 75rem; Utilizei unidade de medida rem para torna o texto mais adaptável a vários tamanhos de telas
-  margin: 0 auto; Centraliza a main
+.titulo-equipe {
+  margin-bottom: 40px;
 }
 
-body {
-  background-color: #fbfbfb;
-  margin: 0;
+.titulo-equipe span {
+  color: var(--detalhe-pagina);
 }
 
-h1 {
-  text-align: start;
-  font-size: 2.5rem;
-  margin-top: 3.5rem;
-  margin-bottom: 2rem;
+.titulo-nome {
+  font: 500 48px/1.2 "Montserrat", sans-serif;
 }
 
-h2 {
-  font-size: 2rem;
+.titulo-cargo {
+  font: 700 24px "Montserrat", sans-serif;
 }
 
-p {
+.paragrafo-descricao {
   text-align: justify;
-  font-size: 1.3rem;
+  margin-top: 16px;
 }
 
-img {
-  width: 200px;
-  box-shadow: 10px 9px 0px 0px #d1b283;
+.imagem {
+  width: auto;
+  height: 400px;
+  margin: 0 auto;
 }
 
 .equipe {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 48px;
+  margin-bottom: 80px;
 }
 
-.colaborador-1 {
+.descricao-colaborador {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  width: 50%;
+}
+
+.container-imagem {
+  box-shadow: 10px 9px 0px 0px var(--bg-botao);
+  background-color: var(--input);
+  width: 50%;
 }
