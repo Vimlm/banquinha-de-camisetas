@@ -25,4 +25,7 @@
   font: 500 20px/1.2 'Montserrat', sans-serif;
 }
 
+.fonte-titulo-section {
+  font: 500 48px/1.2 'Montserrat', sans-serif;
+}
 /* Nessa página temos o import das fontes na linha 2, abaixo temos alguns padrões definidos para logo, título, corpo de texto, fonte dos produtos, menu e para o preço também. Nesses atributo "font" nós passamos os valores de font: peso tamanho/altura de linha 'nome da fonte', fonte secundária caso a primeira não carregue */

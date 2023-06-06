@@ -8,10 +8,10 @@
 }
 /* classe titulo-sobre para fazer com que o titulo comece pelo lado esquerdo e tenha tanto um margin que a separe do topo e outro para separar da section. */
 .sobre {
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
-    gap: 120px;
+    gap: 60px;
 } 
 /*Coloquei um margin botton para dar espaço entre cada section, também usei display flex para fazer com que os elementos ficassem alinhados na horizontal e dei um gap para separar os elementos dentro da section*/
  .imagem-sobre {
@@ -19,11 +19,8 @@
     height: 400px;
 }
  /*Ajustei as imagens para ficar mais proximo do prototipo figma*/
-.titulo2{
-    /* O estilo definido desse h2 foi utilizada novamente na página "equipe" definir esse estilo em "fontes.css" para reutilizar em ambas as página e evitar o uso de classe para definição de fonte e centralizar estilização das fontes em "fontes.css"*/
-    font: 500 48px/1.2 'Montserrat', sans-serif;
-    margin-bottom: 20px;
-}
+
 .paragrafo {
     text-align: left;
+    margin-top: 30px;
 }
