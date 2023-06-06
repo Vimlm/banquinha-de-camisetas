@@ -15,7 +15,7 @@
   na linha seja distribuido de maneira uniforme entre as palavras. Otimizando o uso do espaço disponível e portanto 
   tornando o conteúdo mais legível e atraente visualmente. A utilização de um alinhamento a esqueda poderia causar estranheza 
   na segunda section onde o texto se encontra no bloco esquerdo.*/
-  text-align: justify;
+  text-align: left;
   margin-top: 24px;
 }
 
@@ -44,11 +44,6 @@
 }
 
 .container-imagem {
-  /* Seria interessante mudar as cores para tons de laranja um tom mais claro para o bg e criar no 
-  root essa variável de cor para o box-shadow para termos isso bem definido, assim como também */
-  /* Agradeço o feedback, no entanto, é importante o projeto seguir os padrões de cores definido na paleta de cores 
-  que está no Figma. Sendo o "D1B283" o tom mais claro dessa cor na paleta.*/
-  box-shadow: 10px 9px 0px 0px var(--box-shadow);
   background-color: var(--bg-fundo-imagem);
   width: 50%;
 }
