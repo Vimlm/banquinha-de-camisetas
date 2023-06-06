@@ -4,20 +4,6 @@
   text-align: start;
 }
 
-.titulo-nome {
-  margin-bottom: 10px;
-}
-
-.paragrafo-descricao {
-  text-align: left;
-  margin-top: 20px;
-}
-
-.imagem {
-  height: 400px;
-  margin: 0 auto;
-}
-
 .equipe {
   display: flex;
   gap: 48px;
@@ -25,6 +11,11 @@
   /* O padrão para align-items é start, pode-se omitir esse valor */
   /* Conforme documentação do MDN, o padrão para "align-items" é "stretch", por isso optei por "flex-start". */
   align-items: flex-start;
+}
+
+.imagem {
+  height: 400px;
+  margin: 0 auto;
 }
 
 .descricao-colaborador {
@@ -37,7 +28,11 @@
   width: 50%;
 }
 
-.container-imagem {
-  background-color: var(--bg-fundo-imagem);
-  width: 50%;
+.titulo-nome {
+  margin-bottom: 10px;
+}
+
+.paragrafo-descricao {
+  text-align: left;
+  margin-top: 20px;
 }
