@@ -1,14 +1,16 @@
 /* Cores */
 :root {
-  --bg: #FBFBFB;
+  --bg: #fbfbfb;
   --bg-footer: #252525;
-  --bg-botao: #D1B283;
-  --bg-botao-hover: #AD9A7E;
+  --bg-botao: #d1b283;
+  --bg-botao-hover: #ad9a7e;
+  --bg-fundo-imagem: #d1d1d1;
+  --box-shadow: #d1b283;
   --corpo-texto-escuro: #181818;
-  --corpo-texto-claro: #E6E6E6;
-  --detalhe-texto: #7D8CA4;
-  --detalhe-pagina: #D4DCF6;
-  --input: #D1D1D1;
+  --corpo-texto-claro: #e6e6e6;
+  --detalhe-texto: #7d8ca4;
+  --detalhe-pagina: #d4dcf6;
+  --input: #d1d1d1;
 }
 
 .corpo-texto-escuro {

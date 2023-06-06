@@ -1,59 +1,36 @@
 /* CSS - Formulário de contato */
 .titulo-contato{
-    text-align: center;
-    font-size: 35px;
+  text-align: center;
 }
-
-/* criar classe para estilizar esse elemento para não afetar o resto da página */
-/* a{
-    text-align: center;
-    height: 16px;
-} */
-/* Vamos ter que mudar os buttons também, acabei tendo que mudar a tag "a" para button para conseguir utlizar o evento "onclick" e fazer as interações em JS, em global coloquei alguns valores padrões para botões, e deixer o hover deles lá já que vou usar na página produtos, verificar o que foi colocado e remover aqui */
-/* button{
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 20px;
-    background-color: #D1B283;
-    width: 220px;
-    padding: 15px;
-    border-radius: 10px;
-    border: none;
-}*/
-
+.formulario-botao{
+  padding: 10px 40px;
+  margin-top: 16px;
+  border-radius: 10px;
+  align-self: center;
+} 
 .formulario{
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    
+  padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 form{
-    justify-content: space-around;
-    width: 600px;
-    padding: 45px;
-    display: flex;
-    flex-direction: column;
-    text-align:left;
-    background: #252525;
-    box-shadow: 0 8px 35px 0 rgba(38, 46, 161, 0.5);
-    backdrop-filter: blur( 2.5px );
-    height: 550px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 550px;
+  justify-content: space-around;
+  padding: 45px;
+  background: var(--bg-footer);
+  box-shadow: 0 8px 35px 0 rgba(38, 46, 161, 0.5);
+}
+input, textarea{
+  background: var(--input);
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  padding-left: 5px;
 }
 input{
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: #D1D1D1;
-    font-family: 'Julius Sans One', sans-serif;
-    height: 35px;
-    border: none;
-    font-size: 18px;
-    padding: 5px;
-}
-.texto-contato{
-    height: 150px;
-    text-align: justify;
-    padding: 5px;
-}
-label{
-    color:#E6E6E6;
-    font-size: 25px;
+  height: 35px;
+  margin-bottom: 16px;
 }
