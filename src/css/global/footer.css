@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--bg-footer);
+  width: 100%;
+  height: 248px;
+}
+
+.container-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 0;
+  padding: 64px 0;
+  font: 400 20px/1.2 "Montserrat", sans-serif;
+}
+
+.logo-imagem img {
+  width: 200px;
+}
+
+.mapa-do-site,
+.informacoes ul li {
+  line-height: 1.6;
+}
+
+.mapa-do-site a:hover {
+  color: var(--bg-botao-hover);
+}
+
+.social-media {
+  display: flex;
+  gap: 12px;
+}
+
+.social-media a {
+  opacity: 0.8;
+}
+
+.social-media a:hover {
+  opacity: 1;
+}
