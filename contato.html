@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Importação das fontes do Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Julius+Sans+One&display=swap" rel="stylesheet">
-        <!-- Conexão das páginas do CSS -->
-        <link rel="stylesheet" href="./src/css/style.css" />
-        <link rel="stylesheet" href="./src/css/pages/contato.css" />
-        <!-- Título da página -->
-        <title>Banquinha de Camisetas - Contato</title>
-        <link rel="shortcut icon" href="./src/img/icones/favicon.ico" type="image/tenda-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Banquinha de Camisetas - Contato</title>
+    <link rel="shortcut icon" href="./src/img/icones/favicon.ico" type="image/tenda-icon">
+  </head>
+  <!-- <header>
 
-    </head>
+  </header> -->
+  <body>
+    <div class="container"> 
+      <h1 class="titulo-contato fonte-titulo">Entre em contato<span>!</span></h1>
+      <div class="formulario corpo-texto-claro fonte-sub-titulo">
+        <form action="./contato.html" method="get">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" required/>
+          
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" required/>
+          
+          <label for="mensagem">Mensagem:</label>
+          <textarea name="mensagem" cols="30" rows="10" id="mensagem" required></textarea>
+          <button class= "formulario-botao fonte-preco" type="submit" onclick="mensagemEnviada()">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <!-- <footer>
 
-    <body>
-        <!-- Cabeçario da página -->
-        <header>
-
-        </header>
-        
-        <h1 class="titulo-contato">Entre em contato<span>!</span></h1>
-        <!-- Criada a classe formulário para posicionar o form no centro da página e melhorar a sua estilização -->
-        <div class="formulario">
-            <!-- Formulário -->
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" />
-                
-                <label for="email">Email:</label>
-                <input type="text" name="email" />
-                
-                <label for="mensagem">Mensagem:</label>
-                <input class="texto-contato" type="text" name="mensagem" />
-                <!-- Botão de enviar o formulário -->
-                <a href="#"><button type="button">Enviar</button></a>
-            </form>
-        </div>
-        <!-- Rodapé da página -->
-        <footer>
-
-        </footer>
-    </body>
+    </footer> -->
+    <script src="./src/scripts/contato.js"></script>
+  </body>
 </html>
