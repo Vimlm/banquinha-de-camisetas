@@ -9,14 +9,8 @@
 }
 
 .paragrafo-descricao {
-  /* Justify cria um espaço entre as palavras que é ruim para visualização, omitir esse valor deixaria mais bonito visualmente */
-  /* A propriedade "justify" faz com que o texto seja alinhado tanto à esquerda quanto à direita, resultando em uma aparência 
-  mais uniforme e equilibrada em cada linha. Portanto, optei por utilizar o alinhaento justify para que o espaço disponível 
-  na linha seja distribuido de maneira uniforme entre as palavras. Otimizando o uso do espaço disponível e portanto 
-  tornando o conteúdo mais legível e atraente visualmente. A utilização de um alinhamento a esqueda poderia causar estranheza 
-  na segunda section onde o texto se encontra no bloco esquerdo.*/
   text-align: left;
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
 .imagem {
