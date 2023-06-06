@@ -2,55 +2,51 @@
   margin-bottom: 40px;
 }
 
-.titulo-equipe span {
-  /* Foi criado um padrão para os detalhes da página em global podendo omitir esse estilo, a cor tem que ser menos chamativa do que os botões, por isso foi utilizado a cor do detalhe que no caso foi um azul bem clarinho, queremos a atenção do usuário para partes direcionadas, não faz sentido colocarmos atenção para detalhes que são meramente decorativos */
-  color: var(--bg-botao);
-}
-
 .titulo-nome {
-  /* O estilo definido desse h2 foi utilizada novamente na página "index.css" definir esse estilo em "fontes.css" para reutilizar em ambas as página e evitar o uso de classe para definição de fonte e centralizar estilização das fontes em "fontes.css", ver para utilizar a altura padrão de 1.2 e para distanciar utilizar margin-bottom nessa classe que irá aplicar em todos os ".titulo-nome"*/
-  font: 500 48px/1.8 "Montserrat", sans-serif;
-}
-
-.titulo-cargo {
-  /* O peso de fonte de 700 não está sendo utilizado em si, não temos essa importação feita no css, o tamanho de fonte de 24px e altura de 1.2 é o mesmo que utilizado em produtos, vou fazer alterações para ser reutilizado aqui, procure pela classe ".fonte-sub-titulo" em "fontes.css" */
-  font: 700 24px "Montserrat", sans-serif;
+  margin-bottom: 10px;
 }
 
 .paragrafo-descricao {
   /* Justify cria um espaço entre as palavras que é ruim para visualização, omitir esse valor deixaria mais bonito visualmente */
+  /* A propriedade "justify" faz com que o texto seja alinhado tanto à esquerda quanto à direita, resultando em uma aparência 
+  mais uniforme e equilibrada em cada linha. Portanto, optei por utilizar o alinhaento justify para que o espaço disponível 
+  na linha seja distribuido de maneira uniforme entre as palavras. Otimizando o uso do espaço disponível e portanto 
+  tornando o conteúdo mais legível e atraente visualmente. A utilização de um alinhamento a esqueda poderia causar estranheza 
+  na segunda section onde o texto se encontra no bloco esquerdo.*/
   text-align: justify;
   margin-top: 24px;
 }
 
 .imagem {
-  /* O width por padrão para elementos filhos já é definido como auto por padrão, podemos omitir essa informação abaixo*/
-  width: auto;
   height: 400px;
   margin: 0 auto;
 }
 
 .equipe {
   display: flex;
-  /* O flex-direction quando utilizamos display flex já é por padrão "row" podemos omitir essa informação abaixo */
-  flex-direction: row;
   gap: 48px;
   margin-bottom: 100px;
   /* O padrão para align-items é start, pode-se omitir esse valor */
+  /* Conforme documentação do MDN, o padrão para "align-items" é "stretch", por isso optei por "flex-start". */
   align-items: flex-start;
 }
 
 .descricao-colaborador {
   /* A utilização desse display: flex e flex-direction: column não está surgindo nenhum efeito na página em específico*/
+  /* "Flex-direction: column" organiza a div .descrição-colaborador em colunas. Ao remover, os elementos dentro da div 
+  ficam um ao lado do outro causando efeito visual na página. Optei por manter a declaração do "display: flex" explícita
+  para deixar o código mais descritivo facilitando a leitura do mesmo.*/
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
 .container-imagem {
-  /* Seria interessante mudar as cores para tons de laranja um tom mais claro para o bg e criar no root essa variável de cor para o box-shadow para termos isso bem definido, assim como também */
-  box-shadow: 10px 9px 0px 0px var(--bg-botao);
-  /* O mesmo se aplica para o background de imagem, tentar criar no root essa cor para utilizar e deixar bem modularizado as nossas cores */
-  background-color: var(--input);
+  /* Seria interessante mudar as cores para tons de laranja um tom mais claro para o bg e criar no 
+  root essa variável de cor para o box-shadow para termos isso bem definido, assim como também */
+  /* Agradeço o feedback, no entanto, é importante o projeto seguir os padrões de cores definido na paleta de cores 
+  que está no Figma. Sendo o "D1B283" o tom mais claro dessa cor na paleta.*/
+  box-shadow: 10px 9px 0px 0px var(--box-shadow);
+  background-color: var(--bg-fundo-imagem);
   width: 50%;
 }
