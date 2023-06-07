@@ -1,26 +1,35 @@
 /* Para o header, utilizei um backdrop-filter para adicionar o efeito blur (desfoque) de 10px e também utilizei o background-color para adicionar a cor do background e ao mesmo tempo deixar ele semitransparente adicionando o "0.5" após os valores do rgb.
 Usei o position: fixed para fixar o header em um lugar da tela e o top: 0 para que ele fique sempre encostado no inicio da página, fixando ele sempre ao inicio.
-Utilizei o width de 100% para que ocupe a largura total da pagina e limitei a altura a 120px
-Com o display flex, além de organizar os elementos em row,  usei o align itens para centralizar eles no meio com relação a altura e utilizei o space-evenly para dar um bom espaçamento entre o logo e a div*/
-header {
+Utilizei o width de 100% para que ocupe a largura total da pagina e limitei a altura a 120px.*/
+
+.header {
   backdrop-filter: blur(10px);
-  background-color: rgb(251, 251, 251,0.5) ;
+  background-color: rgb(251, 251, 251, 0.5);
   position: fixed;
   top: 0;
   width: 100%;
   height: 120px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
+/*Com o display flex, além de organizar os elementos em row,  usei o align itens para centralizar eles no meio com relação a altura. Space-between utilizado para criar um espaço entre os elementos.*/
+.container-header {
+  min-height: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
 /* Limitei a altura da imagem da logo utilizando a classe a seguir para que ela fique menor */
 .logo {
   height: 200px;
 }
+
 /* Usei display flex no nav criando a classe a seguir para que ficasse em sentido row */
 .navegacao {
   display: flex;
 }
+
 /* Estilizei os a dentro do nav utilizando o simbolo de maior para não precisar colocar uma classe em cada a, atribui uma cor a ele e dei um padding-left para dar espaçamento nos elementos a da navegação */
 .navegacao > a {
   color: var(corpo-texto-escuro);
