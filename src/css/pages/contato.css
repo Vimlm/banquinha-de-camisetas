@@ -1,19 +1,16 @@
 /* CSS - Formulário de contato */
-.titulo-contato{
+.titulo-contato {
   text-align: center;
+  margin-top: 160px;
 }
-.formulario-botao{
-  padding: 10px 40px;
-  margin-top: 16px;
-  border-radius: 10px;
-  align-self: center;
-} 
-.formulario{
+
+.container-formulario {
   padding: 15px;
   display: flex;
   justify-content: center;
 }
-form{
+
+.formulario {
   display: flex;
   flex-direction: column;
   width: 600px;
@@ -21,16 +18,37 @@ form{
   justify-content: space-around;
   padding: 45px;
   background: var(--bg-footer);
-  box-shadow: 0 8px 35px 0 rgba(38, 46, 161, 0.5);
+  box-shadow: 0 8px 35px 0 var(--bg-box-shadow-contato);
 }
-input, textarea{
+
+.texto-required {
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 8px;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.formulario-botao {
+  padding: 10px 40px;
+  margin-top: 24px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.entrada-de-texto,.campo-de-texto {
   background: var(--input);
   border-radius: 10px;
   border: none;
   font-size: 18px;
   padding-left: 5px;
 }
-input{
+
+.entrada-de-texto {
   height: 35px;
   margin-bottom: 16px;
 }
+
+/* Nessa página foi definida a criação e estilização da página 'contato' do nosso projeto. Utilizamos um formulário para estabelecer a ligação do usuário com a equipe da loja. Foi tulizado dispal flex para conseguir manipular alguns itens e deixá-los todos ao centro da página. implementamos até uma combra azulada em volta ao formulário para destacá-lo.  */

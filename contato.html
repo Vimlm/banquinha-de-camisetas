@@ -5,32 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/css/style.css" />
-    <title>Banquinha de Camisetas - Contato</title>
-    <link rel="shortcut icon" href="./src/img/icones/favicon.ico" type="image/tenda-icon">
+    <title>BC - Contato</title>
+    <link rel="shortcut icon" href="./src/img/icones/favicon.ico" type="image/tenda-icon" />
   </head>
-  <!-- <header>
-
-  </header> -->
   <body>
-    <div class="container"> 
-      <h1 class="titulo-contato fonte-titulo">Entre em contato<span>!</span></h1>
-      <div class="formulario corpo-texto-claro fonte-sub-titulo">
-        <form action="./contato.html" method="get">
-          <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" required/>
-          
-          <label for="email">Email:</label>
-          <input type="text" name="email" id="email" required/>
-          
-          <label for="mensagem">Mensagem:</label>
-          <textarea name="mensagem" cols="30" rows="10" id="mensagem" required></textarea>
-          <button class= "formulario-botao fonte-preco" type="submit" onclick="mensagemEnviada()">Enviar</button>
-        </form>
+    <header class="header">
+      <div class="container container-header">
+        <div><img class="logo" src="./src/img/logo/bc-logo-horizontal.svg" alt="logo com icone de uma barraca e com o nome banquinha de camisetas ao lado" /></div>
+        <nav class="navegacao fonte-menu">
+          <a href="./index.html">Home</a>
+          <a href="./equipe.html">Equipe</a>
+          <a href="./produtos.html">Produtos</a>
+          <a href="./contato.html">Contato</a>
+        </nav>
       </div>
-    </div>
-    <!-- <footer>
-
-    </footer> -->
+    </header>
+    <main class="container">
+      <div>
+        <h1 class="titulo-contato fonte-titulo">Entre em contato<span>!</span></h1>
+        <div class="container-formulario corpo-texto-claro fonte-sub-titulo">
+          <form class="formulario" action="./contato.html" method="get">
+            <p class="texto-required">Campos marcados com * são obrigatórios.</p>
+            <label class="label" for="nome">Nome:*</label>
+            <input class="entrada-de-texto" type="text" name="nome" id="nome" required />
+            <label class="label" for="email">E-mail:*</label>
+            <input class="entrada-de-texto" type="text" name="email" id="email" required />
+            <label class="label" for="mensagem">Mensagem:*</label>
+            <textarea class="campo-de-texto" name="mensagem" cols="30" rows="10" id="mensagem" required></textarea>
+            <button class="formulario-botao fonte-preco" type="submit" onclick="mensagemEnviada()">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container container-footer corpo-texto-claro">
+        <div class="logo-imagem">
+          <img src="./src/img/logo/bc-logo-vertical-clara.svg" alt="logo com icone de uma barraca e com o nome banquinha de camisetas embaixo" />
+        </div>
+        <div class="mapa-do-site">
+          <ul>
+            <li><a href="./index.html">Empresa</a></li>
+            <li><a href="./equipe.html">Equipe</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="informacoes">
+          <ul>
+            <li>Endereço: R. Trajano Reis, 000 - São Francisco</li>
+            <li>Telefone: (41) 9 9000-0000</li>
+            <li>CNPJ: 00.000.000/0001-01</li>
+            <li>Todos os direitos reservados.</li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./src/img/icones/instagram-logo.svg" alt="Logo do Instagram" />
+          </a>
+          <a href="https://www.tiktok.com/pt-BR/" target="_blank">
+            <img src="./src/img/icones/tiktok-logo.svg" alt="Logo do TikTok" />
+          </a>
+          <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
+            <img src="./src/img/icones/whatsapp-logo.svg" alt="Logo do WhatsApp" />
+          </a>
+        </div>
+      </div>
+    </footer>
     <script src="./src/scripts/contato.js"></script>
   </body>
 </html>
