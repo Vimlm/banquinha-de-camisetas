@@ -71,19 +71,31 @@
     </main>
     <!--Aqui termina a main-->
     <!--Aqui começa o footer-->
+    <!-- Adicionei uma classe ao footer para poder estilizá-lo seguindo o padrão
+    definido no projeto de estilizar o CSS de classes e não de tags  -->
     <footer class="footer">
+      <!-- Foi criada uma div para agrupar os diversos conteúdos do footer. -->
+      <!-- Dentro dessa div foi colocada as classes container e corpo-texto-claro
+        para puxar o estilo dessas classe que está no global.css. E foi adicionada 
+        a classe container-footer para poder estilizar os elementos dentro do footer -->
       <div class="container container-footer corpo-texto-claro">
+        <!-- Foi criada uma div com a classe logo-imagem para poder estilizar o tamanho
+        da logo.-->
         <div class="logo-imagem">
+          <!-- Foi adicionada uma logo em .svg para poder aumentá-la ou reduzi-la
+            sem perder a resolução. -->
           <img src="./src/img/logo/bc-logo-vertical-clara.svg" alt="logo com icone de uma barraca e com o nome banquinha de camisetas embaixo" />
         </div>
-        <div class="mapa-do-site">
+        <!-- Foi criada uma nav com a classe mapa-do-site para agrupar e estilizar elementos 
+          de navegação (links que levam para cada página do site).-->
+        <nav class="mapa-do-site">
           <ul>
             <li><a href="./index.html">Empresa</a></li>
             <li><a href="./equipe.html">Equipe</a></li>
             <li><a href="./produtos.html">Produtos</a></li>
             <li><a href="./contato.html">Contato</a></li>
           </ul>
-        </div>
+        </nav>
         <div class="informacoes">
           <ul>
             <li>Endereço: R. Trajano Reis, 000 - São Francisco</li>
