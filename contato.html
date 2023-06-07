@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/css/style.css" />
     <title>BC - Contato</title>
-    <link rel="shortcut icon" href="./src/img/icones/favicon.ico" type="image/tenda-icon">
+    <link rel="shortcut icon" href="./src/img/icones/favicon.ico" type="image/tenda-icon" />
   </head>
-  
+
   <body>
     <header>
       <div><img class="logo" src="./src/img/logo/BC-logohorizontal.svg" alt="logo com icone de uma barraca e com o nome banquinha de camisetas ao lado" /></div>
@@ -19,19 +19,20 @@
         <a href="./contato.html">Contato</a>
       </nav>
     </header>
-    <div class="container"> 
+    <div class="container">
       <h1 class="titulo-contato fonte-titulo">Entre em contato<span>!</span></h1>
-      <div class="formulario corpo-texto-claro fonte-sub-titulo">
-        <form action="./contato.html" method="get">
-          <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" required/>
-          
-          <label for="email">Email:</label>
-          <input type="text" name="email" id="email" required/>
-          
-          <label for="mensagem">Mensagem:</label>
-          <textarea name="mensagem" cols="30" rows="10" id="mensagem" required></textarea>
-          <button class= "formulario-botao fonte-preco" type="submit" onclick="mensagemEnviada()">Enviar</button>
+      <div class="container-formulario corpo-texto-claro fonte-sub-titulo">
+        <form class="formulario" action="./contato.html" method="get">
+          <p class="texto-required">Campos marcados com * são obrigatórios.</p>
+          <label class="label" for="nome">Nome:*</label>
+          <input class="entrada-de-texto" type="text" name="nome" id="nome" required />
+
+          <label class="label" for="email">E-mail:*</label>
+          <input class="entrada-de-texto" type="text" name="email" id="email" required />
+
+          <label class="label" for="mensagem">Mensagem:*</label>
+          <textarea class="campo-de-texto" name="mensagem" cols="30" rows="10" id="mensagem" required></textarea>
+          <button class="formulario-botao fonte-preco" type="submit" onclick="mensagemEnviada()">Enviar</button>
         </form>
       </div>
     </div>
