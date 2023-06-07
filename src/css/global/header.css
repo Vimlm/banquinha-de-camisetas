@@ -10,7 +10,7 @@ Utilizei o width de 100% para que ocupe a largura total da pagina e limitei a al
   width: 100%;
   height: 120px;
 }
-/*Com o display flex, além de organizar os elementos em row, usei o align itens para centralizar eles no meio com relação a altura. Space-between utilizado para criar um espaço entre os elementos. Ming-height: 0, como estamos usando a classe container que 
+/*Com o display flex, além de organizar os elementos em row, usei o align itens para centralizar eles no meio com relação a altura. Space-between utilizado para criar um espaço entre os elementos. Min-height: 0, como estamos usando a classe container que 
 está dentro do Global e ela possui min-height de 85vh, que preenche 85% da tela, para não ter esse mesmo comportamento na header, foi colocado o min-height da div do container header para sobrescrever essa regra. Margin: 0 auto, para centralizar a div na tela. 
 Height: 100%, para a div header.container preencher toda a altura da class header.*/
 .container-header {

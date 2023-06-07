@@ -1,26 +1,21 @@
-/*Header-----------------------------------------------------*/
-
-/*Main--------------------------------------------------------*/
 .titulo-sobre {
     text-align: start;
     margin-top: 220px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 /* classe titulo-sobre para fazer com que o titulo comece pelo lado esquerdo e tenha tanto um margin que a separe do topo e outro para separar da section. */
 .sobre {
-    margin-bottom: 100px;
     display: flex;
-    flex-direction: row;
-    gap: 60px;
+    margin-bottom: 100px;
+    gap: 48px;
 } 
 /*Coloquei um margin botton para dar espaço entre cada section, também usei display flex para fazer com que os elementos ficassem alinhados na horizontal e dei um gap para separar os elementos dentro da section*/
  .imagem-sobre {
-    width: 520px;
     height: 400px;
 }
  /*Ajustei as imagens para ficar mais proximo do prototipo figma*/
 
-.paragrafo {
+.paragrafo-sobre {
     text-align: left;
     margin-top: 30px;
 }
