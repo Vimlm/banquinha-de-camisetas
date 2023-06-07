@@ -1,5 +1,5 @@
 .titulo-equipe {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   margin-top: 220px;
   text-align: start;
 }
@@ -10,16 +10,15 @@
   margin-bottom: 100px;
 }
 
-.imagem {
+.imagem-equipe {
   height: 400px;
-  margin: 0 auto;
 }
 
 .titulo-nome {
   margin-bottom: 10px;
 }
 
-.paragrafo-descricao {
+.paragrafo-equipe {
   text-align: left;
   margin-top: 20px;
 }
