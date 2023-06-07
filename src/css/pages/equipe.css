@@ -8,24 +8,11 @@
   display: flex;
   gap: 48px;
   margin-bottom: 100px;
-  /* O padrão para align-items é start, pode-se omitir esse valor */
-  /* Conforme documentação do MDN, o padrão para "align-items" é "stretch", por isso optei por "flex-start". */
-  align-items: flex-start;
 }
 
 .imagem {
   height: 400px;
   margin: 0 auto;
-}
-
-.descricao-colaborador {
-  /* A utilização desse display: flex e flex-direction: column não está surgindo nenhum efeito na página em específico*/
-  /* "Flex-direction: column" organiza a div .descrição-colaborador em colunas. Ao remover, os elementos dentro da div 
-  ficam um ao lado do outro causando efeito visual na página. Optei por manter a declaração do "display: flex" explícita
-  para deixar o código mais descritivo facilitando a leitura do mesmo.*/
-  display: flex;
-  flex-direction: column;
-  width: 50%;
 }
 
 .titulo-nome {
