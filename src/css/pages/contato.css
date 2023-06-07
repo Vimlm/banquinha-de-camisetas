@@ -38,8 +38,7 @@
   align-self: center;
 }
 
-.entrada-de-texto,
-.campo-de-texto {
+.entrada-de-texto,.campo-de-texto {
   background: var(--input);
   border-radius: 10px;
   border: none;
@@ -51,3 +50,5 @@
   height: 35px;
   margin-bottom: 16px;
 }
+
+/* Nessa página foi definida a criação e estilização da página 'contato' do nosso projeto. Utilizamos um formulário para estabelecer a ligação do usuário com a equipe da loja. Foi tulizado dispal flex para conseguir manipular alguns itens e deixá-los todos ao centro da página. implementamos até uma combra azulada em volta ao formulário para destacá-lo.  */
