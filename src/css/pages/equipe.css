@@ -1,9 +1,21 @@
+/* Classe criada para estilizar o título principal da página (h1). Nela foi
+adicionada um margin-bottom para colocar um espaçamento de 40px entre o título
+e a div logo abaixo do título. O margin-top foi adicionado para criar um espaço
+de 220px em cima do elemento em relação ao topo da página. Já o text-align foi 
+definido como start para o título ficar alinhado em relação a classe container 
+(que centraliza e define o tamanho do conteúdo na página). */
 .titulo-equipe {
   margin-bottom: 40px;
   margin-top: 220px;
   text-align: start;
 }
 
+/* Classe criada para estilizar sections, que trazem informações sobre cada
+colaborador da empresa. Foi adicionado um display com o valor flex para deixar
+o conteúdo em blocos e permitir que a imagem fique ao lado do texto (colunas).
+Foi adicionado também um gap de 48px para definir um espaço entre a imagem e a div
+que contém a descrição do colaborador. Já o margin-bottom cria uma margem de 100px 
+embaixo da section para separá-la da section logo abaixo. */
 .equipe {
   display: flex;
   gap: 48px;

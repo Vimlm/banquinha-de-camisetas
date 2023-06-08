@@ -33,19 +33,4 @@
   text-align: center;
 }
 
-/* Aqui foi definido a disposição dos nossos protudos na página, foi utilizado o display flex para conseguir trabalhar com esses itens, e também foi utilizado o seletor "nth-child" para selecionar apenas o terceiro elemento "button" de ".produtos-botoes" e assim evitar criar mais classes atoa. */
-
-
-/* Header e Footer Provisório */
-.prov-header, .prov-footer {
-  width: 100%;
-  background: var(--bg-footer);
-}
-
-.prov-header {
-  height: 10vh;
-}
-
-.prov-footer {
-  height: 15vh;
-}
+/* Aqui foi definido a disposição dos nossos protudos na página, foi utilizado o display flex para conseguir trabalhar com esses itens, e também foi utilizado o seletor "nth-child" para selecionar apenas o terceiro elemento "button" de ".produtos-botoes" e assim evitar criar mais classes sem necessidade. */
