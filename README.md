@@ -1,14 +1,12 @@
-# Projeto: Banquinha de Camisetas
+# Projeto Banquinha de Camisetas
 
 ## Visão geral
 
 Projeto em grupo intitulado “Ajude um microempreendedor" desenvolvido ao final do "Módulo 1 - Introdução ao front-end e criação de hábitos" do curso de formação WebDev Full Stack JavaScript da Resilia Educação em parceria com o programa Códigos do Amanhã da EBANX.
 
-**Link do site "Banquinha de Camisetas":** http://pudim.me/banquinha-de-camisetas/
-
 ## Objetivo
 
-O projeto consiste no desenvolvimento de um website com 4 páginas utilizando HTML, CSS e JS. O conteúdo da página é sobre um pequeno negócio, que vende camisetas, com as seguintes seções: “Quem Somos”, “Nossos Produtos”, “Nossa Equipe” e “Formulário de Contato”.
+O projeto consiste no desenvolvimento de um website com 4 páginas utilizando HTML, CSS e JS. O conteúdo da página é sobre um pequeno negócio, que vende camisetas, com as seguintes seções: “Quem Somos”, “Nossos Produtos”, “Nossa Equipe” e “Formulário de Contato”;
 
 ## Ferramentas
 
@@ -40,7 +38,7 @@ Este é um projeto exemplo que utiliza várias tecnologias e ferramentas para de
 
 - Discord
 - Google Meet
-- WhatsApp
+- Whats App
 
 #### Controle de Versão
 
@@ -58,16 +56,16 @@ Este é um projeto exemplo que utiliza várias tecnologias e ferramentas para de
 
 O projeto possui as seguintes funcionalidades:
 
-- Exibição de informações estáticas na página.
-- Manipulação dinâmica do conteúdo usando JavaScript.
-- Estilização personalizada usando CSS3.
+Exibição de informações estáticas na página.
+Manipulação dinâmica do conteúdo usando JavaScript.
+Estilização personalizada usando CSS3.
 
 ## Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter os seguintes requisitos:
 
-- Acesso a internet para utilizar o GitHub Pages ou baixar o projeto.
-- Navegador web atualizado.
+Acesso a internet para utilizar o GitHub Pages ou baixar o projeto.
+Navegador web atualizado.
 
 ## Instruções de uso
 
@@ -77,8 +75,8 @@ Acesse o repositório online clicando [aqui](http://pudim.me/banquinha-de-camise
 
 Outra opção é baixar o projeto em sua máquina e rodar com o editor de código seguindos os passos abaixo:
 
-- Faça o download dos arquivos HTML, CSS e JS deste repositório.
-- Abra o arquivo HTML no seu navegador web.
+Faça o download dos arquivos HTML, CSS e JS deste repositório.
+Abra o arquivo HTML no seu navegador web.
 
 ## Estrutura de arquivos
 
@@ -107,7 +105,8 @@ O projeto é composto pelos seguintes arquivos:
   --Aqui teremos várias pastas que guardam todas as imagens do projeto.
 - pasta scripts  
   --contato.js: Arquivo responsável por cuidar da parte de scripts da página contato.html  
-  --produtos.js: Arquivo responável por cuidar da parte de scripts da página produtos.html
+  --produtos.js: Arquivo responável por cuidar da parte de scripts da página produtos.html  
+
 
 ## Contribuição
 
