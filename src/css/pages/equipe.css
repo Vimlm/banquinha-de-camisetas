@@ -22,14 +22,21 @@ embaixo da section para separá-la da section logo abaixo. */
   margin-bottom: 100px;
 }
 
+/* Classe criada para definir em 400px a altura (height) da imagem do colaborador 
+da equipe. */
 .imagem-equipe {
   height: 400px;
 }
-
+/* Classe criada para estilizar o nome dos colaboradores da equipe. O margin-bottom
+adiciona um espaço de 10px embaixo do título com o nome do colaborador (h2), criando 
+assim um espaço entre o nome do colaborador e o seu cargo (h3). */
 .titulo-nome {
   margin-bottom: 10px;
 }
-
+/* Classe criada para estilizar o texto (p) de descrição de cada colaborador. Foi
+adicionado o text-align com o valor left para alinhar o conteúdo do texto á esquerda. 
+Já o margin-top cria um espaço de 10px acima do texto para separá-lo do cargo do 
+colaborador (h3).*/
 .paragrafo-equipe {
   text-align: left;
   margin-top: 20px;
