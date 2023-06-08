@@ -1,9 +1,23 @@
+/* Classe criada para estilizar o footer. Foi adicionado um fundo
+ao footer na cor "--bg-footer (# 252525)" criada no root do CSS.
+No width foi definido que ele deveria preencher 100% da largura
+da página. Já o height define a altura do footer em 240px. */
 .footer {
   background-color: var(--bg-footer);
   width: 100%;
   height: 240px;
 }
 
+/* Classe criada para estilizar a div dentro do footer. O display
+flex utiliza o flexbox. O gap 16px define um espaçamento entre
+os elementos filhos da div. Justify-content: space-between aplica um 
+espaço entre os elementos filho da página. O align-item center alinha
+verticalmente no centro, os elementos filho da página. O min-height: 0
+define uma altura minima de 0px, utilizei ele para sobrescrever o
+min-hight de dentro da classe container. O padding define um espaçamento
+de 64px certicalmente e 0px horizontalmente. A font "Montserrat, sans-serif, 
+foi definida como padrão para o projeto e nesse caso ela foi usada
+com o peso 400, tendo um tamanho de 20px e altura da linha de 1.2. */
 .container-footer {
   display: flex;
   gap: 16px;
@@ -14,28 +28,37 @@
   font: 400 20px/1.2 "Montserrat", sans-serif;
 }
 
+/* Classe criada para estilizar a logo do footer. Definindo sua largura
+em 200px. */
 .logo-imagem img {
   width: 200px;
 }
 
+/* Classes criadas para estilizar a altura da linha das listas dentro
+das divs mapa-do-site e informacoes que estão dentro do footer.*/
 .mapa-do-site,
-.informacoes ul li {
+.informacoes nav ul li {
   line-height: 1.6;
 }
-
+/* Estiliza a cor dos links quando o mouse é passado sobre eles. */
 .mapa-do-site a:hover {
   color: var(--bg-botao-hover);
 }
 
+/* Classe criada para estilizar a div dentro do footer. O display
+flex utiliza o flexbox. O gap 12px define um espaçamento entre
+os elementos filhos da div. */
 .social-media {
   display: flex;
   gap: 12px;
 }
 
+/* Classe criada para deixar os icons/links dentro do social-media 
+um pouco transparentes.*/
 .social-media a {
   opacity: 0.8;
 }
-
+/* Remove transparência quando o mouse é passado sobre os icons/links. */
 .social-media a:hover {
   opacity: 1;
 }
