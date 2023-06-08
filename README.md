@@ -4,7 +4,7 @@
 
 Projeto em grupo intitulado “Ajude um microempreendedor" desenvolvido ao final do "Módulo 1 - Introdução ao front-end e criação de hábitos" do curso de formação WebDev Full Stack JavaScript da Resilia Educação em parceria com o programa Códigos do Amanhã da EBANX.
 
-**Link para o site "Banquinha de Camisetas:**
+**Link para o site "Banquinha de Camisetas:** http://pudim.me/banquinha-de-camisetas/
 
 ## Objetivo
 
@@ -73,7 +73,7 @@ Antes de executar o projeto, certifique-se de ter os seguintes requisitos:
 
 Siga as instruções abaixo para acessar ou executar o projeto:
 
-- Acesse o repositório online clicando [aqui](http://pudim.me/banquinha-de-camisetas/)
+- Acesse o repositório online clicando [aqui](http://pudim.me/banquinha-de-camisetas/).
 
 Outra opção é baixar o projeto em sua máquina e rodar com o editor de código seguindos os passos abaixo:
 
