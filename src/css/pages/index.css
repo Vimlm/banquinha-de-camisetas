@@ -10,10 +10,10 @@
     gap: 48px;
 } 
 /*Coloquei um margin botton para dar espaço entre cada section, também usei display flex para fazer com que os elementos ficassem alinhados na horizontal e dei um gap para separar os elementos dentro da section*/
- .imagem-sobre {
+.imagem-sobre {
     height: 400px;
 }
- /*Ajustei as imagens para ficar mais proximo do prototipo figma*/
+/*Ajustei as imagens para ficar mais proximo do prototipo figma*/
 
 .paragrafo-sobre {
     text-align: left;
